@@ -420,33 +420,29 @@
       </button>
       <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
       <form action="#" class="modal-form-field">
-        <label class="modal-label">
-          <span>Ім'я</span> 
+        <label class="modal-label" for="user-name"><span>Ім'я</span></label>
+          <!-- <span>Ім'я</span>  -->
           <div class="icon-input-container">
             <svg class="icon input-icon" width="18" height="18">
                 <use xlink:href="./images/icons.svg#icon-person"></use>
             </svg>
-            <input type="text" name="user-name" class="modal-input">
+            <input type="text" name="user-name" id="user-name" class="modal-input">
           </div>
-        </label>
-        <label class="modal-label">
-          <span>Телефон</span> 
+        <!-- </label> -->
+        <label class="modal-label" for="user-telephone-number"><span>Телефон</span></label>
           <div class="icon-input-container">
             <svg class="icon input-icon" width="18" height="18">
               <use xlink:href="./images/icons.svg#icon-phone"></use>
             </svg>
-            <input type="text" name="user-telephone-number" class="modal-input">
+            <input type="text" name="user-telephone-number" id="user-telephone-number" class="modal-input">
           </div>
-        </label>
-        <label class="modal-label">
-          <span>Пошта</span> 
+        <label class="modal-label" for="user-email"><span>Пошта</span></label>
           <div class="icon-input-container">
             <svg class="icon input-icon" width="18" height="18">
               <use xlink:href="./images/icons.svg#icon-email"></use>
             </svg>
-            <input type="text" name="user-email" class="modal-input">
+            <input type="text" name="user-email" id="user-email" class="modal-input">
           </div>
-        </label>
         <label class="modal-textarea-label">
           <span>Коментар</span>
           <textarea name="comment" rows="8" placeholder="Введіть текст" class="modal-textarea"></textarea>
